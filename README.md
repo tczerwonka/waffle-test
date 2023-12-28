@@ -10,7 +10,7 @@ We had to overcome a lot of obstacles before we could be productive.
 We are providing some working examples in our github repository hoping that
 we can jump-start you and your team to become productve with coding in Python.
 
-To start, you will want to build a two-wheeled robot.  We are using the 'large'
+To start, you will want to build a two-wheeled robot.  We are using LEGO's competition-ready
 example robot.  The wheels should go on ports A and E.
 
 Copy the example Python code from our example directory and paste it into an 
