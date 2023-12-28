@@ -2,8 +2,10 @@
 
 We are the Waffle turtles!
 
-The Waffle Turtles are a First Lego League team.  This year we chose to use
-*Python* with our new Spike Prime robots and the Spike Prime version 3 app. 
+The Waffle Turtles are a First Lego 
+League team.  This year we chose to use
+*Python* with our new Spike Prime 
+robots and the Spike Prime version 3 app. 
 
 We had to overcome a lot of obstacles before we could be productive.  
 
