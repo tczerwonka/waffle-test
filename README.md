@@ -1,6 +1,6 @@
 # waffle-test
 
-We are the **Waffle turtles!** :turtle:
+We are the **Waffle turtles!** :waffle: :turtle:
 
 The Waffle Turtles are a First Lego 
 League team.  This year we chose to use
