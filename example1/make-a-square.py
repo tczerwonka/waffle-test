@@ -78,8 +78,8 @@ async def main():
         await run_motors(25) #this makes the robot move forward 25cm
         #Now lets reverse
     for i in range(2):#another loop
-            await stopped_turn(-90) # a negitive value for a stopped_turn command will make it turn left
-            await run_motors(-25) # a negitive argument for run_motors command will make it run backward
+            await stopped_turn(-90) # a negative value for a stopped_turn command will make it turn left
+            await run_motors(-25) # a negative argument for run_motors command will make it run backward
 
     #let's drive forward now until we are within 5 cm of a wall, then stop and light up the sensor.
     await distance_detect_forward(5)
