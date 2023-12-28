@@ -75,11 +75,11 @@ def distance_sensor_illuminate():
 async def main():
     for i in range(2):#this is a loop. The orange number is how many times you want the loop to happen. The code you want repeted has to be indented
         await stopped_turn(90) #This makes the robot turn 90 degrees, or a right angle, to the right
-        await run_motors(25) #this makes the robot move forward 25cm
+        await run_motors(20) #this makes the robot move forward 25cm
         #Now lets reverse
     for i in range(2):#another loop
             await stopped_turn(-90) # a negative value for a stopped_turn command will make it turn left
-            await run_motors(-25) # a negative argument for run_motors command will make it run backward
+            await run_motors(-20) # a negative argument for run_motors command will make it run backward
 
     #let's drive forward now until we are within 5 cm of a wall, then stop and light up the sensor.
     await distance_detect_forward(5)
