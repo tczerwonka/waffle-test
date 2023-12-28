@@ -44,7 +44,7 @@ async def stopped_turn(angle):
 # for i in range(times of loops): is a loop function. Make sure code under the loop is tabbed out
 #########################################################################
 async def main():
-    for i in range(4):#this is a loop. The orange number is how many times you want the loop to happen. The code you want repeted has to be indented
+    for i in range(4): #this is a loop. The orange number is how many times you want the loop to happen. The code you want repeted has to be indented
         await stopped_turn(90) #This makes the robot turn 90 degrees, or a right angle, to the right
         await run_motors(25) #this makes the robot move forward 25cm
         #Now lets reverse
